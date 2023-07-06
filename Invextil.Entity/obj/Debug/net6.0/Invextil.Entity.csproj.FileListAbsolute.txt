@@ -1,0 +1,14 @@
+C:\Users\Asus\Desktop\Invextil\SolucionInvextil\Invextil.Entity\bin\Debug\net6.0\Invextil.Entity.deps.json
+C:\Users\Asus\Desktop\Invextil\SolucionInvextil\Invextil.Entity\bin\Debug\net6.0\Invextil.Entity.runtimeconfig.json
+C:\Users\Asus\Desktop\Invextil\SolucionInvextil\Invextil.Entity\bin\Debug\net6.0\Invextil.Entity.dll
+C:\Users\Asus\Desktop\Invextil\SolucionInvextil\Invextil.Entity\bin\Debug\net6.0\Invextil.Entity.pdb
+C:\Users\Asus\Desktop\Invextil\SolucionInvextil\Invextil.Entity\obj\Debug\net6.0\Invextil.Entity.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\Invextil\SolucionInvextil\Invextil.Entity\obj\Debug\net6.0\Invextil.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Desktop\Invextil\SolucionInvextil\Invextil.Entity\obj\Debug\net6.0\Invextil.Entity.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\Invextil\SolucionInvextil\Invextil.Entity\obj\Debug\net6.0\Invextil.Entity.AssemblyInfo.cs
+C:\Users\Asus\Desktop\Invextil\SolucionInvextil\Invextil.Entity\obj\Debug\net6.0\Invextil.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\Invextil\SolucionInvextil\Invextil.Entity\obj\Debug\net6.0\Invextil.Entity.dll
+C:\Users\Asus\Desktop\Invextil\SolucionInvextil\Invextil.Entity\obj\Debug\net6.0\refint\Invextil.Entity.dll
+C:\Users\Asus\Desktop\Invextil\SolucionInvextil\Invextil.Entity\obj\Debug\net6.0\Invextil.Entity.pdb
+C:\Users\Asus\Desktop\Invextil\SolucionInvextil\Invextil.Entity\obj\Debug\net6.0\Invextil.Entity.genruntimeconfig.cache
+C:\Users\Asus\Desktop\Invextil\SolucionInvextil\Invextil.Entity\obj\Debug\net6.0\ref\Invextil.Entity.dll

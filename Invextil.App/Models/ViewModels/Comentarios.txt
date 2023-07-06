@@ -1,0 +1,3 @@
+﻿En esta seccion lo que se hace es convertir los datos que se reciben de la base de datos 
+en los datos que realmente necesitamos, gracias al view mapper podremos en base a las
+claves foraneas de la base de datos traer datos de la tabla foranea

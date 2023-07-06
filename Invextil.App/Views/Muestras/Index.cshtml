@@ -1,0 +1,116 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Estilos{
+
+    <link rel="stylesheet" href="~/vendor/datatables/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="~/vendor/datatables/extensiones/css/responsive.dataTables.min.css">
+    <link rel="stylesheet" href="~/vendor/datatables/extensiones/css/buttons.dataTables.min.css">
+}
+
+<div class="container-fluid">
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3" style=" background-color:#1a163c">
+            <h6 class="m-0 font-weight-bold text-white">Lista de Muestras</h6>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm-3">
+                    <button class="btn btn-success" data-toggle="modal" data-target="#modalData"><i class="fas fa-user-plus"></i> Nueva Muestra</button>
+                </div>
+            </div>
+            <hr />
+            <div class="row">
+                <div class="col-sm-12">
+                    <table class="table table-bordered" id="tbdata" cellspacing="0" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>Producto</th>
+                                <th>Documento Cliente</th>
+                                <th>Nombre Cliente</th>
+                                <th>Direccion</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  Modal-->
+    <div class="modal fade" id="modalData" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="static">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content" style=" background-color:#1a163c">
+                <div class="modal-header">
+                    <h6 class="text-light">Nueva Cita</h6>
+                    <button class="close text-light" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <input type="hidden" value="0" id="txtId">
+                        <div class="row">
+                            <div class="col-sm-6">
+
+                                <div class="form-group col-sm-12">
+                                    <label for="cboTela" class="text-light">Tela</label>
+                                    <select class="form-control form-control-sm" id="cboTela">
+                                    </select>
+                                </div>
+
+                                <div class="form-group col-sm-12">
+                                    <label for="txtDocumentoCliente" class="text-light">Documento Cliente</label>
+                                    <input type="text" class="form-control form-control-sm input-validar" id="txtDocumentoCliente" name="DocumentoCliente">
+                                </div>
+
+                                <div class="form-group col-sm-12">
+                                    <label for="txtNombreCliente" class="text-light">Nombre Cliente</label>
+                                    <input type="text" class="form-control form-control-sm input-validar" id="txtNombreCliente" name="NombreCliente">
+                                </div>
+
+                                <div class="form-group col-sm-12">
+                                    <label for="txtDireccion" class="text-light">Direccion</label>
+                                    <input type="text" class="form-control form-control-sm input-validar" id="txtDireccion" name="Direccion">
+                                </div>
+
+                            </div>
+                            <div class="col-sm-6 ">
+                                <img id="imgUsuario" style="max-width:200px;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);max-width: 100%;max-height: 80%;" src="https://img.freepik.com/fotos-premium/mujer-joven-inconformista-moda-ropa-juvenil-casual-moda-elegantes-gafas-purpuras-posa-al-aire-libre-ciudad-modelo-moda-chica-glamorosa-sexy-europea-sienta-paletas-madera-calle_338491-9704.jpg" class="rounded mx-auto d-block" alt="Foto usuario">
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary btn-sm" type="button" id="btnGuardar">Guardar</button>
+                    <button class="btn btn-danger btn-sm" type="button" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+@section Scripts{
+    <script src="~/vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="~/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+    <script src="~/vendor/datatables/extensiones/js/dataTables.responsive.min.js"></script>
+    <script src="~/vendor/datatables/extensiones/js/dataTables.buttons.min.js"></script>
+    <script src="~/vendor/datatables/extensiones/js/jszip.min.js"></script>
+    <script src="~/vendor/datatables/extensiones/js/buttons.html5.min.js"></script>
+    <script src="~/vendor/datatables/extensiones/js/buttons.print.min.js"></script>
+
+    <!-- SOLO ES DE EJEMPLO - IGNORAR -->
+    <script src="~/js/vistas/Muestra_Index.js"></script>
+}
+

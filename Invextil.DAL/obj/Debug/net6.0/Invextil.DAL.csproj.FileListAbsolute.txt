@@ -1,0 +1,15 @@
+C:\Users\Asus\Desktop\Invextil\SolucionInvextil\Invextil.DAL\bin\Debug\net6.0\Invextil.DAL.deps.json
+C:\Users\Asus\Desktop\Invextil\SolucionInvextil\Invextil.DAL\bin\Debug\net6.0\Invextil.DAL.dll
+C:\Users\Asus\Desktop\Invextil\SolucionInvextil\Invextil.DAL\bin\Debug\net6.0\Invextil.DAL.pdb
+C:\Users\Asus\Desktop\Invextil\SolucionInvextil\Invextil.DAL\obj\Debug\net6.0\Invextil.DAL.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\Invextil\SolucionInvextil\Invextil.DAL\obj\Debug\net6.0\Invextil.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Desktop\Invextil\SolucionInvextil\Invextil.DAL\obj\Debug\net6.0\Invextil.DAL.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\Invextil\SolucionInvextil\Invextil.DAL\obj\Debug\net6.0\Invextil.DAL.AssemblyInfo.cs
+C:\Users\Asus\Desktop\Invextil\SolucionInvextil\Invextil.DAL\obj\Debug\net6.0\Invextil.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\Invextil\SolucionInvextil\Invextil.DAL\obj\Debug\net6.0\Invextil.DAL.dll
+C:\Users\Asus\Desktop\Invextil\SolucionInvextil\Invextil.DAL\obj\Debug\net6.0\refint\Invextil.DAL.dll
+C:\Users\Asus\Desktop\Invextil\SolucionInvextil\Invextil.DAL\obj\Debug\net6.0\Invextil.DAL.pdb
+C:\Users\Asus\Desktop\Invextil\SolucionInvextil\Invextil.DAL\obj\Debug\net6.0\ref\Invextil.DAL.dll
+C:\Users\Asus\Desktop\Invextil\SolucionInvextil\Invextil.DAL\bin\Debug\net6.0\Invextil.Entity.dll
+C:\Users\Asus\Desktop\Invextil\SolucionInvextil\Invextil.DAL\bin\Debug\net6.0\Invextil.Entity.pdb
+C:\Users\Asus\Desktop\Invextil\SolucionInvextil\Invextil.DAL\obj\Debug\net6.0\Invextil.DAL.csproj.CopyComplete

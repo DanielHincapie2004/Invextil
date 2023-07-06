@@ -1,0 +1,120 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Estilos{
+
+    <link rel="stylesheet" href="~/vendor/datatables/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="~/vendor/datatables/extensiones/css/responsive.dataTables.min.css">
+    <link rel="stylesheet" href="~/vendor/datatables/extensiones/css/buttons.dataTables.min.css">
+}
+
+<div class="container-fluid">
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3" style=" background-color:#1a163c">
+            <h6 class="m-0 font-weight-bold text-white">Lista de Citas</h6>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm-3">
+                    <button class="btn btn-success" id="btnNuevo"><i class="fas fa-user-plus"></i> Nueva Cita</button>
+                </div>
+            </div>
+            <hr />
+            <div class="row">
+                <div class="col-sm-12">
+                    <table class="table table-bordered" id="tbdata" cellspacing="0" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>Empleado</th>
+                                <th>Cliente</th>
+                                <th>Fecha</th>
+                                <th>Hora</th>
+                                <th>Direccion</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                           
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  Modal-->
+    <div class="modal fade" id="modalData" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="static">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content" style=" background-color:#1a163c">
+                <div class="modal-header">
+                    <h6 class="text-light">Nueva Cita</h6>
+                    <button class="close text-light" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <input type="hidden" value="0" id="txtId">
+                        <div class="row">
+                            <div class="col-sm-6">
+
+                                <div class="form-group col-sm-12">
+                                    <label for="cboEmpleado" class="text-light">Empleado</label>
+                                    <select class="form-control form-control-sm" id="cboEmpleado">
+                                    </select>
+                                </div>
+
+                                <div class="form-group col-sm-12">
+                                    <label for="txtCliente" class="text-light">Cliente</label>
+                                    <input type="text" class="form-control form-control-sm input-validar" id="txtCliente" name="Cliente" >
+                                </div>
+
+                                <div class="form-group col-sm-12">
+                                    <label for="txtFecha" class="text-light">Fecha</label>
+                                    <input type="date" class="form-control form-control-sm input-validar" id="txtFecha" name="Fecha" placeholder="DD/MM/AAAA">
+                                </div>
+
+                                <div class="form-group col-sm-12">
+                                    <label for="txtHora" class="text-light">Hora</label>
+                                    <input type="time" class="form-control form-control-sm input-validar" id="txtHora" name="Hora" placeholder="00:00 AM/PM">
+                                </div>
+
+                                <div class="form-group col-sm-12">
+                                    <label for="txtDireccion" class="text-light">Direccion</label>
+                                    <input type="text" class="form-control form-control-sm input-validar" id="txtDireccion" name="Direccion" placeholder="Cra 00 # 00-00">
+                                </div>
+
+                            </div>
+                            <div class="col-sm-6 ">
+                                <img id="imgUsuario" style="max-width:200px;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);max-width: 100%;max-height: 80%;" src="https://marylam.com/wp-content/uploads/2020/11/Cat-NY-Pantalon-Aragon-Marylam-683x1024.png" class="rounded mx-auto d-block" alt="Foto usuario">
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary btn-sm" type="button" id="btnGuardar">Guardar</button>
+                    <button class="btn btn-danger btn-sm" type="button" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+@section Scripts{
+    <script src="~/vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="~/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+    <script src="~/vendor/datatables/extensiones/js/dataTables.responsive.min.js"></script>
+    <script src="~/vendor/datatables/extensiones/js/dataTables.buttons.min.js"></script>
+    <script src="~/vendor/datatables/extensiones/js/jszip.min.js"></script>
+    <script src="~/vendor/datatables/extensiones/js/buttons.html5.min.js"></script>
+    <script src="~/vendor/datatables/extensiones/js/buttons.print.min.js"></script>
+    <script src="~/js/vistas/Cita_lndex.js"></script>
+}
+

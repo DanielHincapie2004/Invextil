@@ -1,0 +1,3 @@
+﻿En esta capa se encuentran las clases que se generan automaticamente al usar el 
+paquete de Microsoft.EntityFrameworkCore.SqlServer, el cual representa las tablas generadas 
+dentro de la base de datos
